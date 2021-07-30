@@ -7,7 +7,7 @@ import {
     UserIcon,
 } from "@heroicons/react/outline";
 import Image from "next/image";
-import HeaderItem from "./HeaderItem";
+import HeaderItem from "./headerItem";
 
 function Header() {
     return (
@@ -25,6 +25,5 @@ function Header() {
     )
 };
 
-Header.displayName = 'Header';
 
-export default Header
+export default Header;

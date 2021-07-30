@@ -1,4 +1,4 @@
-import Thumbnail from "./Thumbnail";
+import Thumbnail from "./thumbnail";
 import FlipMove from "react-flip-move";
 
 function Results({ results }) {
@@ -11,6 +11,5 @@ function Results({ results }) {
     );
 };
 
-Results.displayName = 'Results';
 
 export default Results;

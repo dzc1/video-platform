@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Header from '../components/header'
-import Nav from '../components/Nav'
-import Results from '../components/Results'
+import Nav from '../components/nav'
+import Results from '../components/results'
 import requests from '../utils/requests'
 
 export default function Home({ results }) {
