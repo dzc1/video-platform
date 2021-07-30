@@ -20,7 +20,12 @@ function Header() {
                 <HeaderItem title="SEARCH" Icon={SearchIcon} />
                 <HeaderItem title="USER" Icon={UserIcon} />                
             </div>
-            <Image className="object-contain" src="https://links.papareact.com/ua6" width={200} height={100} />
+            
+            <div>
+                <Image alt="Logotype" className="object-contain" src="https://links.papareact.com/ua6" width={200} height={100} />                
+                <p>Created with ❤️  by Diego Zito</p>
+            </div>
+            
         </header>
     )
 };
